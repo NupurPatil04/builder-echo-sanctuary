@@ -174,12 +174,14 @@ export default function Index() {
               />
             </div>
 
-            <div className="group relative rounded-2xl border border-white/20 bg-white/5 backdrop-blur-sm p-8 lg:p-12 flex items-center justify-center hover:bg-white/10 transition-all duration-300 aspect-[310/160]">
-              <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/886ffe97c3ef4956400a51d85ab59dcb99bc9b0e?width=464"
-                alt="UC Davis CS"
-                className="h-14 lg:h-16 w-auto object-contain"
-              />
+            <div className="group relative rounded-2xl border border-white/20 bg-white/5 backdrop-blur-sm p-8 lg:p-12 hover:bg-white/10 transition-all duration-300 aspect-[310/160]">
+              <div className="w-full h-full flex items-center justify-center">
+                <img
+                  src="/assets/image.png"
+                  alt="UC Davis CS"
+                  className="h-24 lg:h-28 w-auto object-contain"
+                />
+              </div>
             </div>
 
             <div className="group relative rounded-2xl border border-white/20 bg-white/5 backdrop-blur-sm p-8 lg:p-12 flex items-center justify-center hover:bg-white/10 transition-all duration-300 aspect-[310/160]">
